@@ -1,6 +1,7 @@
 package com.matveyenka.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -14,6 +15,7 @@ import javax.print.attribute.standard.MediaSize;
 @AllArgsConstructor
 @Getter
 @Setter
+@Data
 @Entity
 @Table(name = "users", schema = "employee_storage")
 public class User extends BaseEntity<Long> {
