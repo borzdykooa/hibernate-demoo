@@ -24,6 +24,8 @@ public class EmployeeDaoTest extends BaseDaoTest {
 //        }
 //    }
 //
+
+
 //    @Test
 //    public void checkSaveEntity() {
 //        Employee ivan = new Employee("Ivan", Gender.MALE, new Address(), new Address());
