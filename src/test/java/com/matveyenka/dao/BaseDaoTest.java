@@ -16,6 +16,9 @@ import static org.junit.Assert.assertNotNull;
 
 public class BaseDaoTest {
 
+    private static final int KLK = 3;
+
+
     protected static final SessionFactory FACTORY = new Configuration().configure().buildSessionFactory();
 
     @AfterClass

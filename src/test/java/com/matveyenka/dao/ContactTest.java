@@ -8,6 +8,10 @@ import java.util.List;
 
 public class ContactTest extends BaseDaoTest {
 
+
+
+
+
     @Test
     public void checkSave() {
         Programmer asdf = new Programmer("asdf", Gender.MALE, Language.RUBY);
